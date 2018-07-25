@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Quiz</title>
+ <style>
+  #wrapper {
+   width: 950px;
+   height: auto;
+   padding: 12px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #fff;
+  }
+ </style>
+</head>
+<body bgcolor="powderblue">
+
+  <div id="wrapper">
+  <br>
+  <center><font face='Berlin Sans FB' size='5'>Quiz app by <a href="https://fun2ssstechie.blogspot.com" target="_blank"><b> Fun2sssTechie </b></a></font></center>
+  <br>
+  <br>
+  <form action='quiz.php?id=1' method='post' id='1'>
+   
+  <ol>
+   <li>
+    <h2>Who is the founder of Space X?</h2>
+
+     <div>
+     <input type="radio" name="AnswerOne" id="AnswerOne" value="A">
+     <label for="id"> A) Elon Musk</label>
+    </div>
+
+     <div>
+     <input type="radio" name="AnswerOne" id="answer" value="B">
+     <label for="id"> B) Mark Zukerberg</label>
+    </div>
+
+     <div>
+     <input type="radio" name="AnswerOne" id="answer" value="C">
+     <label for="id"> C) Bill Gates</label>
+    </div>
+   </li>
+
+    <li>
+    <h2>Which is the least populated district of Nepal?</h2>
+
+     <div>
+     <input type="radio" name="Answertwo" id="answer" value="A">
+     <label for="id"> A) Bhaktapur</label>
+    </div>
+
+     <div>
+     <input type="radio" name="Answertwo" id="answer" value="B">
+     <label for="id"> B) Manang</label>
+    </div>
+
+     <div>
+     <input type="radio" name="Answertwo" id="answer" value="C">
+     <label for="id"> C) Dolpa</label>
+    </div>
+   </li>
+
+    <li>
+    <h2>Which is the oldest language of the world</h2>
+
+     <div>
+     <input type="radio" name="Answerthree" id="answer" value="A">
+     <label for="id"> A) Hindi</label>
+    </div>
+
+     <div>
+     <input type="radio" name="Answerthree" id="answer" value="B">
+     <label for="id"> B) Chinese</label>
+    </div>
+
+     <div>
+     <input type="radio" name="Answerthree" id="answer" value="C">
+     <label for="id"> C) Sanscrit</label>
+    </div>
+   </li>
+  </ol>
+
+   <input type="submit" value="Submit Quiz">
+  </form>
+ </div>
+</body>
+
+</html>
